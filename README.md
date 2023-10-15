@@ -6,7 +6,7 @@ When the old net, meets the new net. (Inspired by [koinuko.pink](https://koinuko
 - Have some feature like [my site](https://github.com/toonnongaeoy/mysite) that currently up ([toonstorytime.me](https://toonstorytime.me))
   - Like
     - Mobile Support
-    - Modern look (But with old 90s - early 2000ish. style.)
+    - Modern look (But with old 90s - early 2000ish style.)
 - Can browse on any web browser even old Netscape Navigator.
 - Made almost entirely on Microsoft FrontPage (Yep, right no fancy ide in the town, We back to 90s - early 2000ish.)
   - (But still use vscode to finalize the website afterwards)
