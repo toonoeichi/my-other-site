@@ -1,6 +1,8 @@
 # My other site (Planned to be toonnongaeoy.moe)
 When the old net, meets the new net. (Inspired by [koinuko.pink](https://koinuko.pink/) v5 and v6)
 
+Featuring in #10-day-in-public on Hack Club Slack.
+
 ## Plan
 - Make a site that compactible with at least Windows XP with Internet Explorer 6.0
 - Have some feature like [my site](https://github.com/toonnongaeoy/mysite) that currently up ([toonstorytime.me](https://toonstorytime.me))
