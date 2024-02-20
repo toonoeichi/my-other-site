@@ -10,15 +10,25 @@
 
 <body>
 <center>
-<table border="0" cellpadding="0" cellspacing="0" width="50%" bgcolor="#FFEBB7" style="border-collapse: collapse; max-width=600px; border-radius=20px" bordercolor="#111111" >
+<table border="0" cellpadding="0" cellspacing="0" width="1024" bgcolor="#FFEBB7" style="border-collapse: collapse; max-width:600px; border-radius:20px" bordercolor="#111111" >
 	<tr>
     	<td colspan="3" align="center">
     	Hi! I'm ToonNongAeoy.
     	</td>
   	</tr>
     <tr>
-    	<td colspan="3" align="center">
-        <img border="0" src="images/github-banner.png" width="100%"></td>
+	<td colspan="3" style="text-align:center;">
+		<img border="0" src="images/github-banner.png" ></td>
+
+	<script type="text/javascript">
+		window.onload = function() {
+			var img = document.getElementById('bannerImage');
+			if (img.offsetWidth > 600) {
+				img.style.width = '600px';
+				img.style.height = 'auto';
+			}
+		}
+	</script>
     </tr>
     <tr>
     	<td colspan="3" align="center">

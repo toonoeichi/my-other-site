@@ -4,6 +4,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <meta http-equiv="Content-Language" content="en-us">
 <title>Welcome to my Web site</title>
+<script>
+    function toggleHiddenRow() {
+        var story = document.all ? document.all['story'] : document.getElementById('story');
+        if (story.style.display === 'none' || story.style.display === '') {
+            story.style.display = document.all ? 'block' : 'table-row';
+        } else {
+            story.style.display = 'none';
+        }
+    }
+</script>
 <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <meta name="Microsoft Theme" content="none, default">
@@ -31,19 +41,9 @@
     	makes sense I guess.) and This is the first version of this site, so it 
     	doesn't look that great. but I will try to make it better and still works on 
     	older web browser and oses too.
-        and if you want to read the whole long story about this site <a href="#" onclick="showHiddenRow();">
+        and if you want to read the whole long story about this site <a a href="javascript:void(0)" onclick="toggleHiddenRow()">
         click here</a>. In the meanwhile, enjoy your stay.<p align="center" style="margin-top: 0; margin-bottom: 1">
         &nbsp;</tr>
-		<script>
-    		function showHiddenRow() {
-        		var story = document.getElementById('story').style;
-        		if (story.display === 'none') {
-        			story.display = 'table-row';
-        		} else {
-        			story.display = 'none';
-        		}
-    		}
-        </script>
     <tr id="story" style="display: none;">
     	<td align="center" colspan="2">
     	<p align="justify" style="margin-left: 20px; margin-right: 20px;">
@@ -67,8 +67,8 @@
         
         </b>
         <p style="margin-top: 0; margin-bottom: 1"><b>Last update
-<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="(%d/%m/%Y)" startspan -->(17/02/2024)<!--webbot bot="Timestamp" i-checksum="13194" endspan --> :</b><small> 
-        Added Social Page (But still not complete.)</small><p style="margin-top: 0; margin-bottom: 1">&nbsp;<p style="margin-top: 0">
+<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="(%d/%m/%Y)" startspan -->(18/02/2024)<!--webbot bot="Timestamp" i-checksum="13198" endspan --> :</b><small> 
+        Finished Social Page + A lot of bug fixes for IE4+ User.</small><p style="margin-top: 0; margin-bottom: 1">&nbsp;<p style="margin-top: 0">
         <font size="2">
         <a href="https://github.com/toonnongaeoy/my-other-site/pulls?q=is:pr+is:closed">
         Update Log. (Modern Browser only.)</a></font><p style="margin-top: 0">&nbsp;</td>
