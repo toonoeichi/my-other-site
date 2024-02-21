@@ -18,4 +18,4 @@ vti_navbuttonprevlabel:SR|Back
 vti_navbuttonnextlabel:SR|Next
 vti_approvallevels:VR|Approved Denied Pending\\ Review
 vti_navbuttonhomelabel:SR|Home
-vti_dependenciesood:IR|0
+vti_dependenciesood:IR|1
