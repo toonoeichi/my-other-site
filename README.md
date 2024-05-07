@@ -11,7 +11,7 @@ Featuring in #10-day-in-public on Hack Club Slack.
 ## Todo List
 - Mobile Support (Responsive)
 - A lot of bug , unfinished , didn't do or even the I don't even use page that isn't done already.
-- Move from Ghosh Blog to Bear Blog
+- Move from Ghosh Blog to AstroPaper With [Retro theme.](https://github.com/toonnongaeoy/retro-blog)
 
 ## Setting up
 Just throw onto a web server that can be flexable with SSL.
